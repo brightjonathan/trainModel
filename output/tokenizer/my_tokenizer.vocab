@@ -1,0 +1,1024 @@
+[\u0000] 0
+[\u0001] 1
+[\u0002] 2
+[\u0003] 3
+[\u0004] 4
+[\u0005] 5
+[\u0006] 6
+[\u0007] 7
+[\u0008] 8
+[\u0009] 9
+[\u000a] 10
+[\u000b] 11
+[\u000c] 12
+[\u000d] 13
+[\u000e] 14
+[\u000f] 15
+[\u0010] 16
+[\u0011] 17
+[\u0012] 18
+[\u0013] 19
+[\u0014] 20
+[\u0015] 21
+[\u0016] 22
+[\u0017] 23
+[\u0018] 24
+[\u0019] 25
+[\u001a] 26
+[\u001b] 27
+[\u001c] 28
+[\u001d] 29
+[\u001e] 30
+[\u001f] 31
+[ ] 32
+[!] 33
+["] 34
+[#] 35
+[$] 36
+[%] 37
+[&] 38
+['] 39
+[(] 40
+[)] 41
+[*] 42
+[+] 43
+[,] 44
+[-] 45
+[.] 46
+[/] 47
+[0] 48
+[1] 49
+[2] 50
+[3] 51
+[4] 52
+[5] 53
+[6] 54
+[7] 55
+[8] 56
+[9] 57
+[:] 58
+[;] 59
+[<] 60
+[=] 61
+[>] 62
+[?] 63
+[@] 64
+[A] 65
+[B] 66
+[C] 67
+[D] 68
+[E] 69
+[F] 70
+[G] 71
+[H] 72
+[I] 73
+[J] 74
+[K] 75
+[L] 76
+[M] 77
+[N] 78
+[O] 79
+[P] 80
+[Q] 81
+[R] 82
+[S] 83
+[T] 84
+[U] 85
+[V] 86
+[W] 87
+[X] 88
+[Y] 89
+[Z] 90
+[[] 91
+[\] 92
+[]] 93
+[^] 94
+[_] 95
+[`] 96
+[a] 97
+[b] 98
+[c] 99
+[d] 100
+[e] 101
+[f] 102
+[g] 103
+[h] 104
+[i] 105
+[j] 106
+[k] 107
+[l] 108
+[m] 109
+[n] 110
+[o] 111
+[p] 112
+[q] 113
+[r] 114
+[s] 115
+[t] 116
+[u] 117
+[v] 118
+[w] 119
+[x] 120
+[y] 121
+[z] 122
+[{] 123
+[|] 124
+[}] 125
+[~] 126
+[\u007f] 127
+[�] 128
+[�] 129
+[�] 130
+[�] 131
+[�] 132
+[�] 133
+[�] 134
+[�] 135
+[�] 136
+[�] 137
+[�] 138
+[�] 139
+[�] 140
+[�] 141
+[�] 142
+[�] 143
+[�] 144
+[�] 145
+[�] 146
+[�] 147
+[�] 148
+[�] 149
+[�] 150
+[�] 151
+[�] 152
+[�] 153
+[�] 154
+[�] 155
+[�] 156
+[�] 157
+[�] 158
+[�] 159
+[�] 160
+[�] 161
+[�] 162
+[�] 163
+[�] 164
+[�] 165
+[�] 166
+[�] 167
+[�] 168
+[�] 169
+[�] 170
+[�] 171
+[�] 172
+[�] 173
+[�] 174
+[�] 175
+[�] 176
+[�] 177
+[�] 178
+[�] 179
+[�] 180
+[�] 181
+[�] 182
+[�] 183
+[�] 184
+[�] 185
+[�] 186
+[�] 187
+[�] 188
+[�] 189
+[�] 190
+[�] 191
+[�] 192
+[�] 193
+[�] 194
+[�] 195
+[�] 196
+[�] 197
+[�] 198
+[�] 199
+[�] 200
+[�] 201
+[�] 202
+[�] 203
+[�] 204
+[�] 205
+[�] 206
+[�] 207
+[�] 208
+[�] 209
+[�] 210
+[�] 211
+[�] 212
+[�] 213
+[�] 214
+[�] 215
+[�] 216
+[�] 217
+[�] 218
+[�] 219
+[�] 220
+[�] 221
+[�] 222
+[�] 223
+[�] 224
+[�] 225
+[�] 226
+[�] 227
+[�] 228
+[�] 229
+[�] 230
+[�] 231
+[�] 232
+[�] 233
+[�] 234
+[�] 235
+[�] 236
+[�] 237
+[�] 238
+[�] 239
+[�] 240
+[�] 241
+[�] 242
+[�] 243
+[�] 244
+[�] 245
+[�] 246
+[�] 247
+[�] 248
+[�] 249
+[�] 250
+[�] 251
+[�] 252
+[�] 253
+[�] 254
+[�] 255
+[.][ ] -> [. ] 256
+[2][3] -> [23] 257
+[23][B] -> [23B] 258
+[23B][H] -> [23BH] 259
+[/][0] -> [/0] 260
+[23BH][/0] -> [23BH/0] 261
+[/][C] -> [/C] 262
+[/C][S] -> [/CS] 263
+[e][ ] -> [e ] 264
+[/CS][\u000a] -> [/CS\u000a] 265
+[23BH/0][2] -> [23BH/02] 266
+[h][i] -> [hi] 267
+[C][H] -> [CH] 268
+[a][ ] -> [a ] 269
+[e][r] -> [er] 270
+[s][ ] -> [s ] 271
+[i][n] -> [in] 272
+[o][ ] -> [o ] 273
+[y][ ] -> [y ] 274
+[t][ ] -> [t ] 275
+[a][n] -> [an] 276
+[A][N] -> [AN] 277
+[CH][I] -> [CHI] 278
+[c][hi] -> [chi] 279
+[E][ ] -> [E ] 280
+[o][n] -> [on] 281
+[ ][ ] -> [  ] 282
+[g][ ] -> [g ] 283
+[u][ ] -> [u ] 284
+[�][�] -> [�] 285
+[t][h] -> [th] 286
+[e][n] -> [en] 287
+[o][r] -> [or] 288
+[/CS][)] -> [/CS)] 289
+[U][K] -> [UK] 290
+[d][ ] -> [d ] 291
+[U][ ] -> [U ] 292
+[�][�] -> [�] 293
+[�][�] -> [\u2060] 294
+[. ][\u2060] -> [. \u2060] 295
+[a][r] -> [ar] 296
+[l][ ] -> [l ] 297
+[c][h] -> [ch] 298
+[ ][CHI] -> [ CHI] 299
+[/CS)][\u000a] -> [/CS)\u000a] 300
+[23BH/0][3] -> [23BH/03] 301
+[s][\u000a] -> [s\u000a] 302
+[23BH/0][1] -> [23BH/01] 303
+[m][ ] -> [m ] 304
+[E][M] -> [EM] 305
+[C][hi] -> [Chi] 306
+[(][23BH/02] -> [(23BH/02] 307
+[UK][W] -> [UKW] 308
+[. ][O] -> [. O] 309
+[�][�] -> [�] 310
+[.][.] -> [..] 311
+[CH][UKW] -> [CHUKW] 312
+[r][i] -> [ri] 313
+[l][e] -> [le] 314
+[M][A] -> [MA] 315
+[E][R] -> [ER] 316
+[e][g ] -> [eg ] 317
+[ ][23BH/02] -> [ 23BH/02] 318
+[n][o] -> [no] 319
+[. ][N] -> [. N] 320
+[chi][ ] -> [chi ] 321
+[u][k] -> [uk] 322
+[E][L] -> [EL] 323
+[o][u] -> [ou] 324
+[u][e] -> [ue] 325
+[m][a] -> [ma] 326
+[er][ ] -> [er ] 327
+[/CS\u000a][1] -> [/CS\u000a1] 328
+[or][ ] -> [or ] 329
+[O][ ] -> [O ] 330
+[\u000a][R] -> [\u000aR] 331
+[/][c] -> [/c] 332
+[s][t] -> [st] 333
+[E][N] -> [EN] 334
+[. ][23BH/02] -> [. 23BH/02] 335
+[  ][  ] -> [    ] 336
+[/CS\u000a][3] -> [/CS\u000a3] 337
+[\u000aR][eg ] -> [\u000aReg ] 338
+[�][�] -> [😂] 339
+[23BH/01][9] -> [23BH/019] 340
+[k][e ] -> [ke ] 341
+[uk][w] -> [ukw] 342
+[m][e] -> [me] 343
+[. ][I] -> [. I] 344
+[/c][s\u000a] -> [/cs\u000a] 345
+[r][e] -> [re] 346
+[s][e ] -> [se ] 347
+[ ][I] -> [ I] 348
+[n][y] -> [ny] 349
+[\u000a][23BH/02] -> [\u000a23BH/02] 350
+[in][g ] -> [ing ] 351
+[23BH/03][0] -> [23BH/030] 352
+[i][f] -> [if] 353
+[o][u ] -> [ou ] 354
+[E][K] -> [EK] 355
+[A][ ] -> [A ] 356
+[f][or ] -> [for ] 357
+[o][m] -> [om] 358
+[. ][A] -> [. A] 359
+[a][t] -> [at] 360
+[CHUKW][U] -> [CHUKWU] 361
+[s][s] -> [ss] 362
+[C][h] -> [Ch] 363
+[k][e] -> [ke] 364
+[G][O] -> [GO] 365
+[/CS\u000a][2] -> [/CS\u000a2] 366
+[k][a] -> [ka] 367
+[EL][ ] -> [EL ] 368
+[w][a] -> [wa] 369
+[Z][I] -> [ZI] 370
+[on][ ] -> [on ] 371
+[T][H] -> [TH] 372
+[l][l ] -> [ll ] 373
+[t][hi] -> [thi] 374
+[/CS\u000a][7] -> [/CS\u000a7] 375
+[d][e] -> [de] 376
+[CHUKW][U ] -> [CHUKWU ] 377
+[o][o] -> [oo] 378
+[D][I] -> [DI] 379
+[i][r] -> [ir] 380
+[y][ou ] -> [you ] 381
+[23BH/01][8] -> [23BH/018] 382
+[M][AN] -> [MAN] 383
+[s][e] -> [se] 384
+[N][A] -> [NA] 385
+[m][an] -> [man] 386
+[\u000a][\u000a] -> [\u000a\u000a] 387
+[/C][s\u000a] -> [/Cs\u000a] 388
+[. ][M] -> [. M] 389
+[E][AN] -> [EAN] 390
+[:][ ] -> [: ] 391
+[ch][ukw] -> [chukw] 392
+[MAN][U] -> [MANU] 393
+[EM][MANU] -> [EMMANU] 394
+[23BH/0][23] -> [23BH/023] 395
+[E][B] -> [EB] 396
+[O][M] -> [OM] 397
+[/CS\u000a][4] -> [/CS\u000a4] 398
+[/CS)\u000a][3] -> [/CS)\u000a3] 399
+[k][ ] -> [k ] 400
+[V][I] -> [VI] 401
+[l][a] -> [la] 402
+[I][ ] -> [I ] 403
+[R][I] -> [RI] 404
+[ ][O] -> [ O] 405
+[k][a ] -> [ka ] 406
+[ou][r] -> [our] 407
+[n][e] -> [ne] 408
+[\u000a][1] -> [\u000a1] 409
+[E][m] -> [Em] 410
+[th][e ] -> [the ] 411
+[/CS\u000a][8] -> [/CS\u000a8] 412
+[n][a] -> [na] 413
+[n][o ] -> [no ] 414
+[n][a ] -> [na ] 415
+[EMMANU][EL ] -> [EMMANUEL ] 416
+[p][ ] -> [p ] 417
+[i][ ] -> [i ] 418
+[i][s] -> [is] 419
+[man][ue] -> [manue] 420
+[Em][manue] -> [Emmanue] 421
+[in][ ] -> [in ] 422
+[w][ ] -> [w ] 423
+[B][U] -> [BU] 424
+[/CS\u000a][6] -> [/CS\u000a6] 425
+[a][g] -> [ag] 426
+[😂][😂] -> [😂😂] 427
+[/CS\u000a][5] -> [/CS\u000a5] 428
+[a][y ] -> [ay ] 429
+[a][u] -> [au] 430
+[h][a] -> [ha] 431
+[t][o ] -> [to ] 432
+[o][l] -> [ol] 433
+[m][e ] -> [me ] 434
+[e][l] -> [el] 435
+[n][u] -> [nu] 436
+[2][. ] -> [2. ] 437
+[i][t] -> [it] 438
+[\u000aReg ][no] -> [\u000aReg no] 439
+[chi][\u000a] -> [chi\u000a] 440
+[O][R] -> [OR] 441
+[G][H] -> [GH] 442
+[S][T] -> [ST] 443
+[w][e] -> [we] 444
+[C][E ] -> [CE ] 445
+[er][e ] -> [ere ] 446
+[    ][    ] -> [        ] 447
+[a][m ] -> [am ] 448
+[i][s ] -> [is ] 449
+[b][e ] -> [be ] 450
+[GO][D] -> [GOD] 451
+[an][d ] -> [and ] 452
+[r][o] -> [ro] 453
+[a][l] -> [al] 454
+[UK][A] -> [UKA] 455
+[I][A] -> [IA] 456
+[en][n] -> [enn] 457
+[N][E ] -> [NE ] 458
+[f][ ] -> [f ] 459
+[E][O] -> [EO] 460
+[an][ ] -> [an ] 461
+[U][R] -> [UR] 462
+[1][0] -> [10] 463
+[c][e ] -> [ce ] 464
+[CHI][ ] -> [CHI ] 465
+[in][y] -> [iny] 466
+[E ][A] -> [E A] 467
+[EAN][Y] -> [EANY] 468
+[,][ ] -> [, ] 469
+[P][H] -> [PH] 470
+[CHUKWU][EB] -> [CHUKWUEB] 471
+[CHUKWUEB][UKA] -> [CHUKWUEBUKA] 472
+[/CS\u000a][9] -> [/CS\u000a9] 473
+[e][m ] -> [em ] 474
+[v][e ] -> [ve ] 475
+[thi][s ] -> [this ] 476
+[w][i] -> [wi] 477
+[. N][W] -> [. NW] 478
+[ ][(23BH/02] -> [ (23BH/02] 479
+[U][ch] -> [Uch] 480
+[h][ ] -> [h ] 481
+[our][ ] -> [our ] 482
+[2][4] -> [24] 483
+[b][u] -> [bu] 484
+[ar][a] -> [ara] 485
+[I][K] -> [IK] 486
+[S][I] -> [SI] 487
+[g][o ] -> [go ] 488
+[a][t ] -> [at ] 489
+[er ][O] -> [er O] 490
+[E][A] -> [EA] 491
+[on][y] -> [ony] 492
+[d][i] -> [di] 493
+[s][t ] -> [st ] 494
+[t][e] -> [te] 495
+[m][b] -> [mb] 496
+[E][CHUKWU ] -> [ECHUKWU ] 497
+[6][. ] -> [6. ] 498
+[ ][N] -> [ N] 499
+[3][/cs\u000a] -> [3/cs\u000a] 500
+[e][t ] -> [et ] 501
+[F][EANY] -> [FEANY] 502
+[I][S] -> [IS] 503
+[Emmanue][l ] -> [Emmanuel ] 504
+[ I][FEANY] -> [ IFEANY] 505
+[ IFEANY][I] -> [ IFEANYI] 506
+[le][a] -> [lea] 507
+[/][ ] -> [/ ] 508
+[CHI][N] -> [CHIN] 509
+[O ][EMMANUEL ] -> [O EMMANUEL ] 510
+[u][n] -> [un] 511
+[5][. ] -> [5. ] 512
+[A][MA] -> [AMA] 513
+[.][\u0009] -> [.\u0009] 514
+[2][8] -> [28] 515
+[. \u2060][O] -> [. \u2060O] 516
+[N][o] -> [No] 517
+[1][9] -> [19] 518
+[O ][DI] -> [O DI] 519
+[2][6] -> [26] 520
+[. N][wa] -> [. Nwa] 521
+[J][O] -> [JO] 522
+[/CS)\u000a][4] -> [/CS)\u000a4] 523
+[a][\u000a] -> [a\u000a] 524
+[ER][EM] -> [EREM] 525
+[en][ ] -> [en ] 526
+[w][u ] -> [wu ] 527
+[a][d] -> [ad] 528
+[J][enn] -> [Jenn] 529
+[Jenn][if] -> [Jennif] 530
+[B][RI] -> [BRI] 531
+[a][ma] -> [ama] 532
+[(23BH/02][5] -> [(23BH/025] 533
+[Ch][ukw] -> [Chukw] 534
+[chukw][u ] -> [chukwu ] 535
+[g][h] -> [gh] 536
+[1][. I] -> [1. I] 537
+[. 23BH/02][7] -> [. 23BH/027] 538
+[ama][ka ] -> [amaka ] 539
+[G][U ] -> [GU ] 540
+[d][o] -> [do] 541
+[GH][T] -> [GHT] 542
+[BRI][GHT] -> [BRIGHT] 543
+[K][A] -> [KA] 544
+[EO][GU ] -> [EOGU ] 545
+[g][et ] -> [get ] 546
+[Chukw][ue] -> [Chukwue] 547
+[w][e ] -> [we ] 548
+[GOD][S] -> [GODS] 549
+[lea][se ] -> [lease ] 550
+[ CHI][N] -> [ CHIN] 551
+[\u000aReg ][No] -> [\u000aReg No] 552
+[ CHI][GO] -> [ CHIGO] 553
+[ CHIGO][ZI] -> [ CHIGOZI] 554
+[VI][NE ] -> [VINE ] 555
+[�][�] -> [�] 556
+[i][c] -> [ic] 557
+[y][our ] -> [your ] 558
+[an][c] -> [anc] 559
+[h][e] -> [he] 560
+[iny][e] -> [inye] 561
+[ST][E] -> [STE] 562
+[/ ][0] -> [/ 0] 563
+[de][y ] -> [dey ] 564
+[o][t] -> [ot] 565
+[ CHI][BU] -> [ CHIBU] 566
+[1][3] -> [13] 567
+[ CHIGOZI][E ] -> [ CHIGOZIE ] 568
+[d][ay ] -> [day ] 569
+[P][R] -> [PR] 570
+[o][h] -> [oh] 571
+[E][ZI] -> [EZI] 572
+[Chi][d] -> [Chid] 573
+[st][i] -> [sti] 574
+[le][ss] -> [less] 575
+[b][e] -> [be] 576
+[..][.] -> [...] 577
+[0][. ] -> [0. ] 578
+[23BH/03][2] -> [23BH/032] 579
+[g][u] -> [gu] 580
+[l][u] -> [lu] 581
+[i][t ] -> [it ] 582
+[A][n] -> [An] 583
+[ag][e ] -> [age ] 584
+[P][au] -> [Pau] 585
+[Pau][l ] -> [Paul ] 586
+[y ][Chi] -> [y Chi] 587
+[i][e ] -> [ie ] 588
+[..][..] -> [....] 589
+[m][ara] -> [mara] 590
+[mara][chi ] -> [marachi ] 591
+[. ][(] -> [. (] 592
+[:][ 23BH/02] -> [: 23BH/02] 593
+[gh][t ] -> [ght ] 594
+[. 23BH/02][4] -> [. 23BH/024] 595
+[1][. ] -> [1. ] 596
+[.][\u000a1] -> [.\u000a1] 597
+[me][ss] -> [mess] 598
+[no][w ] -> [now ] 599
+[p][r] -> [pr] 600
+[I][F] -> [IF] 601
+[I][L] -> [IL] 602
+[23BH/02][1] -> [23BH/021] 603
+[�][�] -> [�] 604
+[A][CH] -> [ACH] 605
+[u][r] -> [ur] 606
+[a][s] -> [as] 607
+[A][marachi ] -> [Amarachi ] 608
+[. O][G] -> [. OG] 609
+[9][. \u2060] -> [9. \u2060] 610
+[ony][inye] -> [onyinye] 611
+[TH][AN] -> [THAN] 612
+[at][i] -> [ati] 613
+[(23BH/02][7] -> [(23BH/027] 614
+[a][c] -> [ac] 615
+[mess][age ] -> [message ] 616
+[g][n] -> [gn] 617
+[u][\u000a23BH/02] -> [u\u000a23BH/02] 618
+[8][/CS)] -> [8/CS)] 619
+[D][UR] -> [DUR] 620
+[. O][K] -> [. OK] 621
+[me][ka ] -> [meka ] 622
+[2][/Cs\u000a] -> [2/Cs\u000a] 623
+[8/CS)][.\u000a1] -> [8/CS).\u000a1] 624
+[j][i] -> [ji] 625
+[0][/CS\u000a3] -> [0/CS\u000a3] 626
+[C][Y] -> [CY] 627
+[Chukwue][meka ] -> [Chukwuemeka ] 628
+[Chi][amaka ] -> [Chiamaka ] 629
+[uk][a ] -> [uka ] 630
+[h][e ] -> [he ] 631
+[U][S] -> [US] 632
+[5][/CS\u000a2] -> [5/CS\u000a2] 633
+[I][G] -> [IG] 634
+[N][TH] -> [NTH] 635
+[a][b] -> [ab] 636
+[CY][NTH] -> [CYNTH] 637
+[CYNTH][IA] -> [CYNTHIA] 638
+[p][p] -> [pp] 639
+[s][)] -> [s)] 640
+[s][on ] -> [son ] 641
+[wu ][M] -> [wu M] 642
+[e][y ] -> [ey ] 643
+[H][EAN] -> [HEAN] 644
+[HEAN][ACH] -> [HEANACH] 645
+[om][i] -> [omi] 646
+[E][z] -> [Ez] 647
+[m][y ] -> [my ] 648
+[E][D] -> [ED] 649
+[ 23BH/02][5] -> [ 23BH/025] 650
+[hi][s ] -> [his ] 651
+[z][ie ] -> [zie ] 652
+[pr][omi] -> [promi] 653
+[N][Y] -> [NY] 654
+[s][o ] -> [so ] 655
+[or][o ] -> [oro ] 656
+[on][e ] -> [one ] 657
+[c][om] -> [com] 658
+[er][em ] -> [erem ] 659
+[Chid][er] -> [Chider] 660
+[ I][ ] -> [ I ] 661
+[o][f ] -> [of ] 662
+[C][T] -> [CT] 663
+[u][c] -> [uc] 664
+[P][EA] -> [PEA] 665
+[b][less] -> [bless] 666
+[ CHIN][EM] -> [ CHINEM] 667
+[u][s ] -> [us ] 668
+[o][ke ] -> [oke ] 669
+[nu][mb] -> [numb] 670
+[ri][ght ] -> [right ] 671
+[PEA][CE ] -> [PEACE ] 672
+[23BH/03][3] -> [23BH/033] 673
+[w][u] -> [wu] 674
+[IG][B] -> [IGB] 675
+[c][a ] -> [ca ] 676
+[D][U ] -> [DU ] 677
+[?][ ] -> [? ] 678
+[EK][E ] -> [EKE ] 679
+[        ][        ] -> [                ] 680
+[th][ ] -> [th ] 681
+[n][e ] -> [ne ] 682
+[PR][OM] -> [PROM] 683
+[t][i] -> [ti] 684
+[d][e ] -> [de ] 685
+[en][c] -> [enc] 686
+[ CHINEM][EREM] -> [ CHINEMEREM] 687
+[PROM][IS] -> [PROMIS] 688
+[l][e ] -> [le ] 689
+[O][ny] -> [Ony] 690
+[. \u2060][A] -> [. \u2060A] 691
+[s)][\u000a] -> [s)\u000a] 692
+[o][p] -> [op] 693
+[n][k] -> [nk] 694
+[onyinye][chi ] -> [onyinyechi ] 695
+[ar][ ] -> [ar ] 696
+[M][MA] -> [MMA] 697
+[T][his ] -> [This ] 698
+[ji][oke ] -> [jioke ] 699
+[CH][A] -> [CHA] 700
+[5][/CS\u000a1] -> [5/CS\u000a1] 701
+[l][i] -> [li] 702
+[b][a ] -> [ba ] 703
+[B][right ] -> [Bright ] 704
+[F][r] -> [Fr] 705
+[A][K] -> [AK] 706
+[Uch][e ] -> [Uche ] 707
+[O][W] -> [OW] 708
+[promi][se ] -> [promise ] 709
+[g][o] -> [go] 710
+[th][at ] -> [that ] 711
+[JO][Y] -> [JOY] 712
+[ir][u ] -> [iru ] 713
+[Paul ][nk] -> [Paul nk] 714
+[Paul nk][iru ] -> [Paul nkiru ] 715
+[Paul nkiru ][23BH/019] -> [Paul nkiru 23BH/019] 716
+[Uch][e] -> [Uche] 717
+[Paul nkiru 23BH/019][3/cs\u000a] -> [Paul nkiru 23BH/0193/cs\u000a] 718
+[thi][n] -> [thin] 719
+[E][s] -> [Es] 720
+[Ez][in] -> [Ezin] 721
+[1][/CS\u000a8] -> [1/CS\u000a8] 722
+[�][�] -> [🤣] 723
+[te][d ] -> [ted ] 724
+[E][G] -> [EG] 725
+[Ezin][ne ] -> [Ezinne ] 726
+[a][s ] -> [as ] 727
+[KA][CHI ] -> [KACHI ] 728
+[EM][EK] -> [EMEK] 729
+[23BH/02][8] -> [23BH/028] 730
+[er O][lu] -> [er Olu] 731
+[CHUKWU][EMEK] -> [CHUKWUEMEK] 732
+[5][/CS\u000a3] -> [5/CS\u000a3] 733
+[E A][KACHI ] -> [E AKACHI ] 734
+[o][se] -> [ose] 735
+[. NW][EK] -> [. NWEK] 736
+[. NWEK][E AKACHI ] -> [. NWEKE AKACHI ] 737
+[L][E] -> [LE] 738
+[😂][ ] -> [😂 ] 739
+[/Cs\u000a][2] -> [/Cs\u000a2] 740
+[Es][th] -> [Esth] 741
+[Fr][anc] -> [Franc] 742
+[a][l ] -> [al ] 743
+[Uche ][Esth] -> [Uche Esth] 744
+[Uche Esth][er Olu] -> [Uche Esther Olu] 745
+[\u000a][(] -> [\u000a(] 746
+[1][. A] -> [1. A] 747
+[ir][e ] -> [ire ] 748
+[f][a] -> [fa] 749
+[A ][F] -> [A F] 750
+[. O][k] -> [. Ok] 751
+[in][a ] -> [ina ] 752
+[C][IA] -> [CIA] 753
+[r][ou] -> [rou] 754
+[P][lease ] -> [Please ] 755
+[ri][ce ] -> [rice ] 756
+[m][en] -> [men] 757
+[.][Uche Esther Olu] -> [.Uche Esther Olu] 758
+[ 23BH/02][10] -> [ 23BH/0210] 759
+[PROMIS][E ] -> [PROMISE ] 760
+[.Uche Esther Olu][chi\u000a] -> [.Uche Esther Oluchi\u000a] 761
+[.Uche Esther Oluchi\u000a][23BH/018] -> [.Uche Esther Oluchi\u000a23BH/018] 762
+[O][T] -> [OT] 763
+[l][o] -> [lo] 764
+[U][L] -> [UL] 765
+[er][i] -> [eri] 766
+[0][/CS\u000a1] -> [0/CS\u000a1] 767
+[Z][OR] -> [ZOR] 768
+[GODS][P] -> [GODSP] 769
+[GODSP][OW] -> [GODSPOW] 770
+[GODSPOW][ER] -> [GODSPOWER] 771
+[GODSPOWER][ CHIBU] -> [GODSPOWER CHIBU] 772
+[GODSPOWER CHIBU][ZOR] -> [GODSPOWER CHIBUZOR] 773
+[ha][ve ] -> [have ] 774
+[ke][zie ] -> [kezie ] 775
+[Chi][kezie ] -> [Chikezie ] 776
+[Chikezie ][Jennif] -> [Chikezie Jennif] 777
+[Chikezie Jennif][er O] -> [Chikezie Jennifer O] 778
+[Chikezie Jennifer O][la] -> [Chikezie Jennifer Ola] 779
+[GODSPOWER CHIBUZOR][ 23BH/0210] -> [GODSPOWER CHIBUZOR 23BH/0210] 780
+[EL][ED] -> [ELED] 781
+[ELED][O DI] -> [ELEDO DI] 782
+[ELEDO DI][VINE ] -> [ELEDO DIVINE ] 783
+[ELEDO DIVINE ][CHUKWUEBUKA] -> [ELEDO DIVINE CHUKWUEBUKA] 784
+[(23BH/02][4] -> [(23BH/024] 785
+[HEANACH][O EMMANUEL ] -> [HEANACHO EMMANUEL ] 786
+[CHUKWUEMEK][A] -> [CHUKWUEMEKA] 787
+[O][H] -> [OH] 788
+[V][er] -> [Ver] 789
+[HEANACHO EMMANUEL ][CHUKWUEMEKA] -> [HEANACHO EMMANUEL CHUKWUEMEKA] 790
+[bless][ing ] -> [blessing ] 791
+[IK][E ] -> [IKE ] 792
+[. 23BH/024][5/CS\u000a1] -> [. 23BH/0245/CS\u000a1] 793
+[An][th] -> [Anth] 794
+[1. I][HEANACHO EMMANUEL CHUKWUEMEKA] -> [1. IHEANACHO EMMANUEL CHUKWUEMEKA] 795
+[w][h] -> [wh] 796
+[au][rice ] -> [aurice ] 797
+[g][wu M] -> [gwu M] 798
+[gwu M][aurice ] -> [gwu Maurice ] 799
+[gwu Maurice ][L] -> [gwu Maurice L] 800
+[gwu Maurice L][ot] -> [gwu Maurice Lot] 801
+[gwu Maurice Lot][an] -> [gwu Maurice Lotan] 802
+[. M][B] -> [. MB] 803
+[E][CHI ] -> [ECHI ] 804
+[23BH/019][4] -> [23BH/0194] 805
+[ol][u] -> [olu] 806
+[O][MA] -> [OMA] 807
+[2][/CS)\u000a] -> [2/CS)\u000a] 808
+[k][now ] -> [know ] 809
+[oro ][blessing ] -> [oro blessing ] 810
+[uc][k] -> [uck] 811
+[ER][E ] -> [ERE ] 812
+[en][d] -> [end] 813
+[. Nwa][gwu Maurice Lotan] -> [. Nwagwu Maurice Lotan] 814
+[. 23BH/02][0] -> [. 23BH/020] 815
+[D][A] -> [DA] 816
+[H][AN] -> [HAN] 817
+[HAN][OT] -> [HANOT] 818
+[HANOT][U ] -> [HANOTU ] 819
+[HANOTU ][BRIGHT] -> [HANOTU BRIGHT] 820
+[HANOTU BRIGHT][ CHINEMEREM] -> [HANOTU BRIGHT CHINEMEREM] 821
+[oro blessing ][Chiamaka ] -> [oro blessing Chiamaka ] 822
+[23BH/030][2] -> [23BH/0302] 823
+[o ][L] -> [o L] 824
+[olu][chi ] -> [oluchi ] 825
+[v][i] -> [vi] 826
+[ka][chi ] -> [kachi ] 827
+[z][u] -> [zu] 828
+[wa][s ] -> [was ] 829
+[23BH/0194][/CS\u000a3] -> [23BH/0194/CS\u000a3] 830
+[o][d] -> [od] 831
+[in][i] -> [ini] 832
+[CT][OR] -> [CTOR] 833
+[I][CHA] -> [ICHA] 834
+[(][23BH/023] -> [(23BH/023] 835
+[if][ ] -> [if ] 836
+[ose][s ] -> [oses ] 837
+[J][I] -> [JI] 838
+[. M][oses ] -> [. Moses ] 839
+[. Moses ][Ver] -> [. Moses Ver] 840
+[. Moses Ver][o L] -> [. Moses Vero L] 841
+[. Moses Vero L][uck] -> [. Moses Vero Luck] 842
+[�][�] -> [’] 843
+[/CS\u000a2][1. ] -> [/CS\u000a21. ] 844
+[2][ ] -> [2 ] 845
+[ar][e ] -> [are ] 846
+[n][ ] -> [n ] 847
+[VI][CTOR] -> [VICTOR] 848
+[PH][IL] -> [PHIL] 849
+[\u000a][23BH/030] -> [\u000a23BH/030] 850
+[Uche][chukw] -> [Uchechukw] 851
+[ CHI][NA] -> [ CHINA] 852
+[l][y ] -> [ly ] 853
+[e][s ] -> [es ] 854
+[Ch][ri] -> [Chri] 855
+[6][6] -> [66] 856
+[Emmanue][l] -> [Emmanuel] 857
+[23BH/02][9] -> [23BH/029] 858
+[h][/0] -> [h/0] 859
+[wi][ll ] -> [will ] 860
+[a][le] -> [ale] 861
+[STE][PH] -> [STEPH] 862
+[STEPH][EN] -> [STEPHEN] 863
+[ECHI ][VICTOR] -> [ECHI VICTOR] 864
+[ECHI VICTOR][ IFEANYI] -> [ECHI VICTOR IFEANYI] 865
+[s][u] -> [su] 866
+[s][h] -> [sh] 867
+[0][/CS)\u000a] -> [0/CS)\u000a] 868
+[. NW][AK] -> [. NWAK] 869
+[. NWAK][AN] -> [. NWAKAN] 870
+[. NWAKAN][MA] -> [. NWAKANMA] 871
+[. NWAKANMA][ CHIGOZIE ] -> [. NWAKANMA CHIGOZIE ] 872
+[. NWAKANMA CHIGOZIE ][STEPHEN] -> [. NWAKANMA CHIGOZIE STEPHEN] 873
+[7][/CS\u000a4] -> [7/CS\u000a4] 874
+[is][ca ] -> [isca ] 875
+[ale][we] -> [alewe] 876
+[alewe][chi ] -> [alewechi ] 877
+[EN][ER] -> [ENER] 878
+[d][o ] -> [do ] 879
+[b][ri] -> [bri] 880
+[GH][ENER] -> [GHENER] 881
+[GHENER][O ] -> [GHENERO ] 882
+[GHENERO ][PEACE ] -> [GHENERO PEACE ] 883
+[GHENERO PEACE ][EN] -> [GHENERO PEACE EN] 884
+[GHENERO PEACE EN][DUR] -> [GHENERO PEACE ENDUR] 885
+[GHENERO PEACE ENDUR][AN] -> [GHENERO PEACE ENDURAN] 886
+[23BH][/ 0] -> [23BH/ 0] 887
+[GHENERO PEACE ENDURAN][CE ] -> [GHENERO PEACE ENDURANCE ] 888
+[k][w] -> [kw] 889
+[ ][U] -> [ U] 890
+[. A][ny] -> [. Any] 891
+[AN][IGB] -> [ANIGB] 892
+[ANIGB][O EMMANUEL ] -> [ANIGBO EMMANUEL ] 893
+[ANIGBO EMMANUEL ][CHUKWUEBUKA] -> [ANIGBO EMMANUEL CHUKWUEBUKA] 894
+[O][UR] -> [OUR] 895
+[in][g] -> [ing] 896
+[s][s ] -> [ss ] 897
+[J][EOGU ] -> [JEOGU ] 898
+[JEOGU ][MMA] -> [JEOGU MMA] 899
+[JEOGU MMA][SI] -> [JEOGU MMASI] 900
+[JEOGU MMASI][CHUKWU ] -> [JEOGU MMASICHUKWU ] 901
+[JEOGU MMASICHUKWU ][CYNTHIA] -> [JEOGU MMASICHUKWU CYNTHIA] 902
+[er][e] -> [ere] 903
+[Franc][isca ] -> [Francisca ] 904
+[G][ini] -> [Gini] 905
+[Gini][kachi ] -> [Ginikachi ] 906
+[. Any][alewechi ] -> [. Anyalewechi ] 907
+[. Anyalewechi ][Amarachi ] -> [. Anyalewechi Amarachi ] 908
+[ ][A] -> [ A] 909
+[. Anyalewechi Amarachi ][Francisca ] -> [. Anyalewechi Amarachi Francisca ] 910
+[r][am ] -> [ram ] 911
+[23BH][ ] -> [23BH ] 912
+[ch][ ] -> [ch ] 913
+[o][o ] -> [oo ] 914
+[B][ar] -> [Bar] 915
+[GHENERO PEACE ENDURANCE ][23BH ] -> [GHENERO PEACE ENDURANCE 23BH ] 916
+[S][OM] -> [SOM] 917
+[1][6] -> [16] 918
+[Bar][th] -> [Barth] 919
+[A][V] -> [AV] 920
+[/CS)\u000a3][5] -> [/CS)\u000a35] 921
+[Ginikachi ][chi] -> [Ginikachi chi] 922
+[Ginikachi chi][jioke ] -> [Ginikachi chijioke ] 923
+[Barth][ram ] -> [Barthram ] 924
+[re][d ] -> [red ] 925
+[ny][ere ] -> [nyere ] 926
+[/CS)\u000a3][6] -> [/CS)\u000a36] 927
+[Ginikachi chijioke ][Emmanuel ] -> [Ginikachi chijioke Emmanuel ] 928
+[ CHI][AMA] -> [ CHIAMA] 929
+[ch][erem ] -> [cherem ] 930
+[E][Z] -> [EZ] 931
+[ CHI][SOM] -> [ CHISOM] 932
+[d][u ] -> [du ] 933
+[an][y] -> [any] 934
+[i][a\u000a] -> [ia\u000a] 935
+[d][get ] -> [dget ] 936
+[Chri][sti] -> [Christi] 937
+[9][/CS\u000a3] -> [9/CS\u000a3] 938
+[. OK][EKE ] -> [. OKEKE ] 939
+[. OKEKE ][PROMISE ] -> [. OKEKE PROMISE ] 940
+[. OKEKE PROMISE ][IF] -> [. OKEKE PROMISE IF] 941
+[Barthram ][promise ] -> [Barthram promise ] 942
+[ri][ri] -> [riri] 943
+[no][st] -> [nost] 944
+[nost][enc] -> [nostenc] 945
+[d][ire ] -> [dire ] 946
+[dire ][bri] -> [dire bri] 947
+[dire bri][dget ] -> [dire bridget ] 948
+[p][e] -> [pe] 949
+[. OKEKE PROMISE IF][ECHUKWU ] -> [. OKEKE PROMISE IFECHUKWU ] 950
+[. OKEKE PROMISE IFECHUKWU ][(23BH/025] -> [. OKEKE PROMISE IFECHUKWU (23BH/025] 951
+[. OKEKE PROMISE IFECHUKWU (23BH/025][3] -> [. OKEKE PROMISE IFECHUKWU (23BH/0253] 952
+[Barthram promise ][Chider] -> [Barthram promise Chider] 953
+[d][on ] -> [don ] 954
+[4][. ] -> [4. ] 955
+[RI][S] -> [RIS] 956
+[1][/CS\u000a7] -> [1/CS\u000a7] 957
+[nostenc][ia\u000a] -> [nostencia\u000a] 958
+[AV][OUR] -> [AVOUR] 959
+[v][er] -> [ver] 960
+[nostencia\u000a][(23BH/027] -> [nostencia\u000a(23BH/027] 961
+[EZI][K] -> [EZIK] 962
+[EZIK][E A] -> [EZIKE A] 963
+[EZIKE A][LE] -> [EZIKE ALE] 964
+[EZIKE ALE][SI] -> [EZIKE ALESI] 965
+[EZIKE ALESI][O DI] -> [EZIKE ALESIO DI] 966
+[EZIKE ALESIO DI][CHIN] -> [EZIKE ALESIO DICHIN] 967
+[EZIKE ALESIO DICHIN][MA] -> [EZIKE ALESIO DICHINMA] 968
+[. Nwa][dire bridget ] -> [. Nwadire bridget ] 969
+[. O][ny] -> [. Ony] 970
+[b][uka ] -> [buka ] 971
+[. Nwadire bridget ][onyinyechi ] -> [. Nwadire bridget onyinyechi ] 972
+[Chukwuemeka ][Bright ] -> [Chukwuemeka Bright ] 973
+[Chukwuemeka Bright ][Uchechukw] -> [Chukwuemeka Bright Uchechukw] 974
+[chi][nyere ] -> [chinyere ] 975
+[v][in ] -> [vin ] 976
+[T][h] -> [Th] 977
+[r][eg ] -> [reg ] 978
+[6][/cs\u000a] -> [6/cs\u000a] 979
+[H][ ] -> [H ] 980
+[.][\u000a\u000a] -> [.\u000a\u000a] 981
+[7][. N] -> [7. N] 982
+[W][in] -> [Win] 983
+[/CS)\u000a][1] -> [/CS)\u000a1] 984
+[K][el] -> [Kel] 985
+[23BH/03][4] -> [23BH/034] 986
+[s][i] -> [si] 987
+[O][b] -> [Ob] 988
+[Kel][vin ] -> [Kelvin ] 989
+[Win][if] -> [Winif] 990
+[(23BH/02][2] -> [(23BH/022] 991
+[Kelvin ][Winif] -> [Kelvin Winif] 992
+[J][U] -> [JU] 993
+[e][le] -> [ele] 994
+[a][ke ] -> [ake ] 995
+[EN][N] -> [ENN] 996
+[. I][he] -> [. Ihe] 997
+[rou][p ] -> [roup ] 998
+['][t ] -> ['t ] 999
+[o][g] -> [og] 1000
+[ 23BH/02][0] -> [ 23BH/020] 1001
+[. OG][BU] -> [. OGBU] 1002
+[. \u2060][Kelvin Winif] -> [. \u2060Kelvin Winif] 1003
+[. \u2060Kelvin Winif][red ] -> [. \u2060Kelvin Winifred ] 1004
+[JU][ZI] -> [JUZI] 1005
+[9][/CS\u000a1] -> [9/CS\u000a1] 1006
+[. \u2060Kelvin Winifred ][23BH/029] -> [. \u2060Kelvin Winifred 23BH/029] 1007
+[. \u2060Kelvin Winifred 23BH/029][4] -> [. \u2060Kelvin Winifred 23BH/0294] 1008
+[V][AN] -> [VAN] 1009
+[m][a ] -> [ma ] 1010
+[JUZI][EOGU ] -> [JUZIEOGU ] 1011
+[Anth][on] -> [Anthon] 1012
+[n][on] -> [non] 1013
+[7][. ] -> [7. ] 1014
+[s][a] -> [sa] 1015
+[/c][s)\u000a] -> [/cs)\u000a] 1016
+[\u000a23BH/02][7] -> [\u000a23BH/027] 1017
+[e][x] -> [ex] 1018
+[E][VAN] -> [EVAN] 1019
+[N][zu] -> [Nzu] 1020
+[A][u] -> [Au] 1021
+[THAN][K] -> [THANK] 1022
+[. A][JUZIEOGU ] -> [. AJUZIEOGU ] 1023

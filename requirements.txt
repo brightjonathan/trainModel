@@ -1,0 +1,9 @@
+torch==2.7.0
+pandas==2.2.3
+
+
+
+### BPE (BYTES PER ENCODING ALGORITHM) DEPENDENCIES /LIBRARIES
+tqdm===4.66.1
+regex==
+tiktoken==
